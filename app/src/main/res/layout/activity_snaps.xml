@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    tools:context="com.example.hp.snappy.SnapsActivity">
+
+
+    <Button
+        android:id="@+id/cameraButton"
+        android:layout_width="290dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="220dp"
+        android:alpha="1"
+        android:background="@drawable/custom_dialog"
+        android:fontFamily="serif-monospace"
+        android:onClick="camera"
+        android:screenReaderFocusable="true"
+        android:text="click from camera"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/galleryButton"
+        android:layout_width="290dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:alpha="1"
+        android:background="@drawable/custom_dialog"
+        android:fontFamily="serif-monospace"
+        android:onClick="gallery"
+        android:screenReaderFocusable="true"
+        android:text="choose from gallery"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cameraButton" />
+
+    <Button
+        android:id="@+id/mySnapsButton"
+        android:layout_width="290dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:alpha="1"
+        android:background="@drawable/custom_dialog"
+        android:fontFamily="serif-monospace"
+        android:onClick="mySnaps"
+        android:screenReaderFocusable="true"
+        android:text="My Snaps"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/galleryButton" />
+
+    <TextView
+        android:id="@+id/snappyTextView"
+        android:layout_width="415dp"
+        android:layout_height="148dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/akronim1"
+        android:text="Snappy"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cameraButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/snappyTextView1"
+        android:layout_width="415dp"
+        android:layout_height="157dp"
+        android:layout_marginBottom="176dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/akronim1"
+        android:text="Snappy"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/snappyTextView2"
+        android:layout_width="415dp"
+        android:layout_height="148dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="41dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/akronim1"
+        android:text="Snappy"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snappyTextView1" />
+
+</android.support.constraint.ConstraintLayout>

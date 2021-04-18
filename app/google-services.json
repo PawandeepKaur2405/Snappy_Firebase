@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014442310767",
+    "project_id": "snap-pie",
+    "storage_bucket": "snap-pie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014442310767:android:225443f5dd269fedbd219a",
+        "android_client_info": {
+          "package_name": "com.example.hp.snappy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014442310767-28alonc4sl96f7s98dkmfpc2qtu6jhhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrYpwTwYuuBszGDIbUKqJUAJxTFdYNKMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014442310767-28alonc4sl96f7s98dkmfpc2qtu6jhhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
